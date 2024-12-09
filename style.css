@@ -1,0 +1,89 @@
+/* General body styling */
+body {
+    background-color: #ffffff;  /* white colour for page */
+    font-family: Arial, sans-serif;  /* ariel font*/
+}
+/* Center the calculator container */
+.container {
+    max-width: 800px;  /* width of calculator */
+    margin: auto;  /* Center it horizontally */
+}
+/* Styling for the header */
+h1 {
+    font-size: 2rem;  /* Set a medium font size */
+    text-align: center;  /* Center the header text */
+    margin-bottom: 20px;  /* Add space below the header */
+}
+/* Button styles */
+button {
+    height: 60px;  /*height for buttons */
+    margin: 5px;  /*space between buttons */
+    border-radius: 10px;  /* Round the corners of buttons */
+}
+/* Hover effect for buttons */
+button:hover {
+    opacity: 0.8;  /* reduce opacity on hover */
+}
+/* Result input field styling */
+input[type="text"] {
+    font-size: 30px;  /* font size for the result display */
+    height: 60px; 
+    text-align: right;  
+    border-radius: 10px;  /* Round the corners */
+    margin-bottom: 20px; 
+    padding-right: 20px; 
+    background-color: #ffffff;  /* White background */
+}
+/*number buttons*/
+.btn-nos {
+    background-color: #909092fa;  /* grey background */
+    font-size: 20px;
+    color: #000000; /*black font colour*/
+    border: none;  /* Remove borders */
+}
+.btn-nos:hover {
+    background-color: #5c5e61e0;  /* Darker grey when hovering */
+    color: #000000;
+}
+/*decimal point*/
+.btn-point {
+    background-color: #909092fa;  /* grey background */
+    font-size: 30px;
+    color: #000000; /*font colour-black*/
+    border: none;  /* Remove borders */
+}
+.btn-point:hover {
+    background-color: #5c5e61e0;  /* Darker grey when hovering */
+    color: #000000;
+}
+/*operation buttons */
+.btn-op {
+    background-color: #000000;  /* black background */
+    border: none;
+    color: #ffffff;/* white font colour */
+}
+/* = button */
+.btn-eq {
+    background-color: #2fc50a;  /* green background */
+    color: #000000; /*black font*/
+    border: none;
+}
+.btn-eq:hover {
+    background-color: #2fc50ada;  /* Darker green when hovering */
+    color: #000000;
+}
+/* clear button*/
+.btn-clr {
+    background-color: #f12929;  /* Red background */
+    color: #000000;/*black font*/
+    border: none;
+}
+.btn-clr:hover {
+    background-color: #db2c2c;  /* Darker red when hovering */
+    color: #000000;
+}
+/*spacing between buttons */
+.row.g-2 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
